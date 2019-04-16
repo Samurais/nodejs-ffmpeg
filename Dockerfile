@@ -1,7 +1,7 @@
-FROM node:8-alpine
-MAINTAINER Ricky Dunlop <hello@rickydunlop.co.uk>
+FROM node:10-alpine
+MAINTAINER Hai Liang Wang <hailiang.hl.wang@gmail.com>
 
-ENV FFMPEG_VERSION=3.3.5
+ENV FFMPEG_VERSION=3.4.6
 RUN apk update && \
     apk upgrade && \
 
